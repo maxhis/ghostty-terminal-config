@@ -19,7 +19,7 @@ macOS 下基于 Ghostty + Starship + zsh 插件的终端美化方案，从 iTerm
 ## 一键安装
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/justhalfbit/ghostty-terminal-config/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/maxhis/ghostty-terminal-config/main/install.sh)
 ```
 
 安装前会询问确认，确认后自动执行：
@@ -91,7 +91,7 @@ brew install starship fzf zoxide eza bat yazi zsh-autosuggestions zsh-syntax-hig
 ### 2. 下载配置文件
 
 ```bash
-git clone --depth 1 https://github.com/justhalfbit/ghostty-terminal-config.git /tmp/ghostty-config
+git clone --depth 1 https://github.com/maxhis/ghostty-terminal-config.git /tmp/ghostty-config
 ```
 
 ### 3. 安装配置文件
@@ -146,6 +146,8 @@ rm -rf /tmp/ghostty-config
 | `gst` | `git status` |
 | `ga` | `git add` |
 | `gaa` | `git add --all` |
+| `gf` | `git fetch` |
+| `gc` | `git commit` |
 | `gcmsg` | `git commit --message` |
 | `gco` | `git checkout` |
 | `gcb` | `git checkout -b` |
